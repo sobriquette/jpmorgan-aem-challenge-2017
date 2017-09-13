@@ -1,0 +1,11 @@
+<div class="container" data-sly-use.breadcrumb="${'myApp.components.controller.BreadcrumbController'}">
+	<div class="row">
+		<div class="col-lg-12">
+			<ul class="breadcrumb" data-sly-list.link="${breadcrumb.getBreadcrumbs}">
+				<li class="${linkList.last ? 'active' : ''}">
+					<a href="${link.link}" data-sly-unwrap="${linkList.last}">${link.linkTitle}</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
