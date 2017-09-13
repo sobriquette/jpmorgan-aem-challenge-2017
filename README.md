@@ -12,6 +12,7 @@ pages not meant to be navigated to directly are not presented in this context.
 As a Site User: I want to be able to see where I am in the site’s content tree so that I understand the context of what I am viewing. I want to be able to navigate to where I have come from in the site so that I can easily jump back and forth between site sections.
 
 Approach:
+
 Used OOTB (out-of-the-box) AEM component Breadcrumb
     - Includes built-in function that gathers a collection of links, i.e. BreadcrumbImpl.getItems();
     - Includes the AEM Page component, which has a isHideInNav(); function that returns whether a page is flagged as hidden or not
@@ -23,5 +24,4 @@ Future improvements:
 
 2) Build a breadcrumb component from scratch so there's more control over the naming of attributes and component functionality.
 
-(A suggestion for keeping the project nimble in the future)
 3) Depending on the UI for the breadcrumbs, we could also consider configuring a dialog.xml for it so that allow content authors to handle CSS styles such as font-size, link styling, icon styling (between breadcrumb items)...etc. This would enable the development team to focus on building components and their functionalities, rather than having to update the CSS files manually every time a UI change request is made.
