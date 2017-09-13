@@ -5,9 +5,11 @@ Objective:
 Create a breadcrumbs component which is compatible with AEM 6.0 or higher. The deliverable should be an AEM package.
 
 Acceptance Criteria:
-• As a Content Author: I want to be able to exclude pages from the breadcrumb listing so that structural pages or
+
+As a Content Author: I want to be able to exclude pages from the breadcrumb listing so that structural pages or
 pages not meant to be navigated to directly are not presented in this context.
-• As a Site User: I want to be able to see where I am in the site’s content tree so that I understand the context of what I am viewing. I want to be able to navigate to where I have come from in the site so that I can easily jump back and forth between site sections.
+
+As a Site User: I want to be able to see where I am in the site’s content tree so that I understand the context of what I am viewing. I want to be able to navigate to where I have come from in the site so that I can easily jump back and forth between site sections.
 
 Approach:
 Used OOTB (out-of-the-box) AEM component Breadcrumb
